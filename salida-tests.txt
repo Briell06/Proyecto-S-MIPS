@@ -1,0 +1,15 @@
+Ejecutando 12 programas en la placa...
+OK    programs/arithmetic.asm  (6795 ciclos)
+OK    programs/array_sum.asm  (933 ciclos)
+OK    programs/branches.asm  (914 ciclos)
+OK    programs/gcd.asm  (2955 ciclos)
+OK    programs/hello.asm  (295 ciclos)
+OK    programs/memory.asm  (5162 ciclos)
+OK    programs/multiply.asm  (2032 ciclos)
+OK    tests/test_arithmetics.asm  (3410 ciclos)
+OK    tests/test_branches.asm  (892 ciclos)
+OK    tests/test_compare.asm  (2999 ciclos)
+OK    tests/test_memory.asm  (3732 ciclos)
+OK    tests/test_procedures.asm  (800 ciclos)
+
+12/12 correctos
