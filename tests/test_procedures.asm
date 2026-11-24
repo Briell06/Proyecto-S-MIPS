@@ -1,3 +1,11 @@
+# Covers:
+# jal: procedure call
+# jr: procedure return
+# Non-leaf procedure calling another procedure
+# Saving and restoring $ra using the stack
+# $zero: attempting to write and verifying it remains 0
+# addi: negative immediate
+
 .text
 main:
     # Initialize stack

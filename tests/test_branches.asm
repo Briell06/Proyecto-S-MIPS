@@ -1,3 +1,9 @@
+# Covers:
+# beq: taken and not taken
+# bne: taken and not taken
+# bne: backward branch in a loop
+# j: unconditional jump
+
 .text
 main:
     li   $t0, 5

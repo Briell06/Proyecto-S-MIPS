@@ -1,3 +1,11 @@
+# Covers:
+# lw: positive and negative offsets
+# sw: positive and negative offsets
+# lb: byte with bit 7 = 1, position 2
+# lbu: byte with bit 7 = 1, position 3
+# sb: byte positions 0, 1, 2 and 3
+# sb: verifies preservation of other bytes using lw
+
 .data
 before: .word 0x11223344
 target: .word 0x80FF7F01

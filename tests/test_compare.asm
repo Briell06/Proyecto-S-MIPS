@@ -1,3 +1,11 @@
+# Covers:
+# slt: result 1 and result 0
+# slt: negative versus positive operands
+# slti: result 1 and result 0
+# sll: shamt = 0 and shamt != 0
+# srl: shamt = 0 and shamt != 0
+# srl: negative value, verifying zero-fill
+
 .text
 main:
     # Signed comparisons
